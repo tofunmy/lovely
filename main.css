@@ -1,0 +1,142 @@
+body  {background-color: bisque;}
+
+.title {
+    color: rgb(123, 60, 8); outline-style:groove
+}
+
+ 
+.subtitle {
+    color: rgb(128, 98, 0); outline-style:inset
+}
+#who-are-you {
+    color: rgb(252, 139, 0) ;
+}
+li:only-child{
+    color: rgb(226, 43, 52);} 
+    
+
+h2 + a{
+    color: rgb(129, 111, 111)
+}
+
+textarea ~ button {
+    color:brown;
+}
+
+ul > li {
+    color: rgb(132, 42, 18);
+}
+tr >td{
+    color:rgb(150, 105, 17);
+}
+ol li{
+    color:brown
+}
+img[src^="img/"]{
+    border: 3px solid black;
+}
+ul a {
+    color: orange;
+}
+
+    
+
+.post{
+    background-color: rgb(88, 44, 44);
+    color:burlywood;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-style: none;
+    border-width: 4px;
+    margin-right: 5px;
+    font-size: smaller;
+    font-weight: 200  
+}
+.set{
+    background-color: rgb(81, 39, 39);
+    color:burlywood;
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-style:none;
+    border-width: 4px;
+    margin-right: 5px;
+    font-size: smaller;
+    font-weight: 200  
+
+}
+.submit:hover {
+ background-color: rgb(212, 126, 126);
+
+}
+.post:active {
+    opacity: 60px;
+    background-color: rgb(209, 141, 39);
+}
+.set:active{
+    box-shadow: 9px 8px 9px rgb(4, 4, 4);
+}
+#know{
+    background-color: rgb(84, 46, 46);
+    color:bisque;
+    height: 17px;
+    width: 90px;
+    border-radius: 9px;
+    cursor: pointer;
+    border-style:inherit;
+    border-width: 4px;
+    margin-right: 9px;
+    font-size: smaller;
+    font-weight: 200  
+
+}
+#me{
+    background-color: rgb(87, 44, 44);
+    color: bisque;
+    border-radius: 9px;
+    cursor: pointer;
+    border-style:inherit;
+    margin-right: 5px;
+    font-size: small;
+    font-weight: 200  
+}
+.top{
+    background-color: rgb(87, 45, 45);
+    color: bisque;
+    height: 30px;
+    width: 80px;
+    border-radius: 9px;
+    cursor: pointer;
+    border-style:inherit;
+    border-width: 4px;
+    margin-right: 5px;
+    font-size: small;
+    font-weight: 200  
+}
+body{
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+h2[class|=subtitle] {
+    background: peru;
+}
+a {
+    text-decoration:none;
+    cursor:hover;
+
+}
+a:visited{
+    color: red;
+}
+a:hover {
+    color: rgb(86, 58, 58);
+}
+ul{
+    list-style-type:lower-alpha;
+}
+ol{
+    list-style-type: upper-roman;
+}
