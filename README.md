@@ -2,4 +2,4 @@
 
 My first github
 
-I love reading:, and sleeping:.
+I love reading:.
