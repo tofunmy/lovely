@@ -33,7 +33,7 @@ ol li{
     color:brown
 }
 img[src^="img/"]{
-    border: 3px solid black;
+    border: 2px solid black;
 }
 ul a {
     color: orange;
@@ -92,16 +92,6 @@ ul a {
     font-size: smaller;
     font-weight: 200  
 
-}
-#me{
-    background-color: rgb(87, 44, 44);
-    color: bisque;
-    border-radius: 9px;
-    cursor: pointer;
-    border-style:inherit;
-    margin-right: 5px;
-    font-size: small;
-    font-weight: 200  
 }
 .top{
     background-color: rgb(87, 45, 45);
